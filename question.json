@@ -1,46 +1,30 @@
 [
   {
     "question": "Which is the most popular JavaScript framework?",
-    "options": [
-      "Angular",
-      "React",
-      "Svelte",
-      "Vue"
-    ],
-    "correctOption": 1,
+    "options": ["Angular", "React", "Svelte", "Vue"],
+    "correctOptions": [1, 3],
+    "multipleAnswers": true,
     "points": 10
   },
   {
     "question": "Which company invented React?",
-    "options": [
-      "Google",
-      "Apple",
-      "Netflix",
-      "Facebook"
-    ],
-    "correctOption": 3,
+    "options": ["Google", "Apple", "Netflix", "Facebook"],
+    "correctOption": [3],
+    "multipleAnswers": false,
     "points": 10
   },
   {
     "question": "What's the fundamental building block of React apps?",
-    "options": [
-      "Components",
-      "Blocks",
-      "Elements",
-      "Effects"
-    ],
-    "correctOption": 0,
+    "options": ["Components", "Blocks", "Elements", "Effects"],
+    "correctOption": [0],
+    "multipleAnswers": false,
     "points": 10
   },
   {
     "question": "What's the name of the syntax we use to describe the UI in React components?",
-    "options": [
-      "FBJ",
-      "Babel",
-      "JSX",
-      "ES2015"
-    ],
-    "correctOption": 2,
+    "options": ["FBJ", "Babel", "JSX", "ES2015"],
+    "correctOption": [2],
+    "multipleAnswers": false,
     "points": 10
   },
   {
@@ -51,18 +35,15 @@
       "Both ways",
       "The developers decides"
     ],
-    "correctOption": 0,
+    "correctOption": [0],
+    "multipleAnswers": false,
     "points": 10
   },
   {
     "question": "How to pass data into a child component?",
-    "options": [
-      "State",
-      "Props",
-      "PropTypes",
-      "Parameters"
-    ],
-    "correctOption": 1,
+    "options": ["State", "Props", "PropTypes", "Parameters"],
+    "correctOption": [1],
+    "multipleAnswers": false,
     "points": 10
   },
   {
@@ -73,7 +54,8 @@
       "Whenever the state should be accessible to all components",
       "Whenever the state can be computed from another state variable"
     ],
-    "correctOption": 3,
+    "correctOption": [3],
+    "multipleAnswers": false,
     "points": 30
   },
   {
@@ -84,7 +66,8 @@
       "Updating state",
       "Adding event listeners to DOM elements"
     ],
-    "correctOption": 2,
+    "correctOption": [2],
+    "multipleAnswers": false,
     "points": 20
   },
   {
@@ -95,7 +78,8 @@
       "When we need to add styles",
       "Almost never"
     ],
-    "correctOption": 3,
+    "correctOption": [3],
+    "multipleAnswers": false,
     "points": 20
   },
   {
@@ -106,7 +90,8 @@
       "When the state update should happen faster",
       "When the new state depends on the previous state"
     ],
-    "correctOption": 3,
+    "correctOption": [3],
+    "multipleAnswers": false,
     "points": 30
   },
   {
@@ -117,18 +102,15 @@
       "Only on the initial render",
       "The first time we update the state"
     ],
-    "correctOption": 2,
+    "correctOption": [2],
+    "multipleAnswers": false,
     "points": 30
   },
   {
     "question": "Which hook to use for an API request on the component's initial render?",
-    "options": [
-      "useState",
-      "useEffect",
-      "useRef",
-      "useReducer"
-    ],
-    "correctOption": 1,
+    "options": ["useState", "useEffect", "useRef", "useReducer"],
+    "correctOption": [1],
+    "multipleAnswers": false,
     "points": 10
   },
   {
@@ -139,7 +121,8 @@
       "All state and props referenced in the effect",
       "All variables needed for clean up"
     ],
-    "correctOption": 2,
+    "correctOption": [2],
+    "multipleAnswers": false,
     "points": 30
   },
   {
@@ -150,7 +133,8 @@
       "False",
       "In depends on the code in the effect"
     ],
-    "correctOption": 0,
+    "correctOption": [0],
+    "multipleAnswers": false,
     "points": 30
   },
   {
@@ -161,7 +145,8 @@
       "The first time the component re-renders",
       "Each time the component is re-rendered"
     ],
-    "correctOption": 3,
+    "correctOption": [3],
+    "multipleAnswers": false,
     "points": 20
   }
 ]
